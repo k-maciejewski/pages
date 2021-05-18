@@ -1,0 +1,17 @@
+name: "Your name"
+output_dir: "."
+navbar:
+  center: "Your name"
+  left:
+    - text: "Home"
+      href: index.html
+  right:
+    - icon: fas fa-envelope
+      href: mailto:<email>
+
+
+output:
+  html_document:
+    css: https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css
+    
+    # “default”, “cerulean”, “journal”, “flatly”, “darkly”, “readable”, “spacelab”, “united”, “cosmo”, “lumen”, “paper”, “sandstone”, “simplex”, “yeti”
